@@ -1,0 +1,153 @@
+html, body{
+  height:100vh;
+  background-color:grey;
+  display:flex;
+  flex-direction: column;
+}
+
+.main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+body{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app {
+  height:auto;
+  display:flex;
+  width:280px;
+  align-items: center;
+  justify-content:center;
+
+}
+
+.top{
+  height:80px;
+  display:flex;
+  width:280px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color:white;
+
+}
+
+.calc {
+  display:flex;
+  width:281px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  position:relative;
+  z-index:1;
+  background-color:#424654;
+  opacity: 0.97;
+
+}
+
+.filter {
+  display:flex;
+  width:280px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0px;
+  background-color:white;
+  position:relative;
+  z-index:2;
+}
+
+button {
+  margin: 10px;
+  width:50px;
+  height: 40px;
+  border-radius: 0px;
+  border: none;
+  background:none;
+  color: white;
+  font-family: roboto;
+  font-size:20px;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+.pad {
+  display:flex;
+  flex-direction:column;
+  width:330px;
+  align-items:center;
+}
+
+.display{
+  text-align:right;
+  margin-right: 20px;
+  font-size: 18px;
+  font-family: Roboto;
+  overflow: hidden;
+  width: 85%;
+}
+
+.result {
+  text-align:right;
+  margin-right: 20px;
+  font-size: 40px;
+  width: 85%;
+  font-family: Roboto;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.dec{
+  margin-top: 4px;
+  font-size: 20px;
+}
+
+.return {
+  background-color:#F28A4F;
+  height:60px;
+  width:280px;
+  margin: 0px;
+  z-index:1;
+  font-size: 30px;
+
+}
+
+.lastrow {
+  display:flex;
+  justify-content:flex-end;
+  margin-right: 50px;
+  width:100%;
+}
+
+h1{
+  font-family:roboto;
+  color: white;
+}
+
+
+.footer {
+  margin-top: 20px;
+  color: white;
+  font-family:roboto;
+  text-align:center;
+}
+
+.afterpad{
+  background-color: blue;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+  width:330px;
+  background-color:#424654;
+  box-shadow: 4px 4px 10px -2px #000000;
+}
